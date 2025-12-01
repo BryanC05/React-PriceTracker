@@ -71,7 +71,7 @@ Ensure you have **Node.js** installed. This project prefers **pnpm**, but you ca
 ├── lib/
 │   └── utils.ts          # Utility functions (cn helper)
 └── public/               # Static assets
-
+```
 ## 📝 Usage Notes
 
   * **Data Persistence**: Currently, the application uses local state (`useState`) within `app/page.tsx`. This means if you refresh the page, the data will reset to the default mock data.
@@ -81,5 +81,3 @@ Ensure you have **Node.js** installed. This project prefers **pnpm**, but you ca
 
 This project uses **Tailwind CSS v4**. You can customize the theme colors in `app/globals.css`. The color palette uses `oklch` values for better color space interpolation.
 
-```
-```
